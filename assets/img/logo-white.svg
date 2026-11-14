@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" width="300" height="64" role="img" aria-label="Prima Machinery Co.">
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfe5ec"/><stop offset=".5" stop-color="#9aa6b5"/><stop offset="1" stop-color="#cfd6df"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4 4)">
+    <rect width="56" height="56" rx="12" fill="#fff"/>
+    <path d="M17 45V12h12.5a10.5 10.5 0 0 1 0 21H17" fill="none" stroke="#0b1d3a" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="square"/>
+    <circle cx="29.5" cy="22.5" r="3.6" fill="#7d8a9c"/>
+    <path d="M34 50 L50 34 L50 50 Z" fill="#7d8a9c"/>
+  </g>
+  <text x="74" y="36" font-family="Archivo, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="31" letter-spacing="2" fill="#ffffff">PRIMA</text>
+  <text x="75" y="55" font-family="Archivo, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="12.5" letter-spacing="4.2" fill="url(#steel)">MACHINERY CO.</text>
+</svg>

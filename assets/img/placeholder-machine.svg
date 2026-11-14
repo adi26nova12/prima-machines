@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f8fb"/><stop offset="1" stop-color="#e6ebf1"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#d9e0e8" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#grid)" opacity=".6"/>
+  <g fill="none" stroke="#9aa6b6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(220 160)">
+    <rect x="20" y="70" width="320" height="150" rx="10"/>
+    <path d="M60 70V30h180v40"/>
+    <rect x="250" y="95" width="62" height="40" rx="5"/>
+    <circle cx="270" cy="170" r="7"/><circle cx="295" cy="170" r="7"/>
+    <circle cx="110" cy="145" r="38"/><circle cx="110" cy="145" r="10"/>
+    <circle cx="195" cy="145" r="24"/>
+    <path d="M0 260h360M40 220v40M320 220v40"/>
+  </g>
+  <text x="400" y="490" text-anchor="middle" font-family="Archivo, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="3" fill="#7d8a9c">MACHINE PHOTO COMING SOON</text>
+</svg>

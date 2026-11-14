@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Machines | Prima Machinery Co.</title>
+  <meta name="description" content="Browse Prima Machinery Co.'s range of paper cutting, corrugation, die punching, pasting, printing and box finishing machines. Search by machine or filter by category.">
+  <link rel="canonical" href="https://www.primamachinery.com/products.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Prima Machinery Co.">
+  <meta property="og:title" content="Machine Catalogue | Prima Machinery Co.">
+  <meta property="og:description" content="Paper, printing and packaging machinery from Amritsar, Punjab, India.">
+  <meta name="theme-color" content="#0b1d3a">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="products">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <ol class="breadcrumb"><li><a href="index.html">Home</a></li><li aria-current="page">Products</li></ol>
+        <span class="eyebrow">Product Catalogue</span>
+        <h1>Our Machines</h1>
+        <p>Paper, printing and packaging machinery. Search by name or filter by category, then request a price or enquire on WhatsApp.</p>
+      </div>
+    </section>
+
+    <section class="section" id="catalog" style="padding-top:clamp(36px,5vw,64px)">
+      <div class="container catalog-layout">
+        <aside class="filter-panel" aria-label="Filter by category">
+          <h2>Categories</h2>
+          <ul class="filter-list" id="filterList"></ul>
+        </aside>
+        <div>
+          <form class="search-bar" id="searchForm" role="search">
+            <div class="search-field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <label for="search" class="sr-only">Search machines</label>
+              <input id="search" type="search" placeholder="Search machines, e.g. cutting, corrugation, PRIMA-35" autocomplete="off">
+              <button class="search-clear" type="button" aria-label="Clear search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+            </div>
+          </form>
+          <div class="filter-chips" id="filterChips" aria-label="Filter by category"></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:22px">
+            <h2 id="catTitle" style="font-size:1.5rem;margin:0">All Machines</h2>
+            <p class="result-count" id="resultCount" aria-live="polite"></p>
+          </div>
+          <div class="product-grid" id="productGrid" style="grid-template-columns:repeat(auto-fill,minmax(270px,1fr))"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta-band reveal">
+          <div>
+            <h2>Can’t find the machine you need?</h2>
+            <p>Tell us about your application and we’ll suggest a suitable machine.</p>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn--light" href="contact.html#enquiry">Send Requirement</a>
+            <a class="btn btn--ghost-light" href="catalogue.html">E-Catalogue</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/pages.js"></script>
+</body>
+</html>
