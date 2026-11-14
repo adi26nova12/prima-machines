@@ -6,7 +6,7 @@ window.PRIMA_CONFIG = {
   company: "Prima Machinery Co.",
   shortName: "Prima Machinery",
   tagline: "Precision Machinery. Reliable Performance.",
-  domain: "https://www.primamachinery.com",
+  domain: "https://adi26nova12.github.io/prima-machines",
   contactPerson: "Vikas Gupta",
   phoneDisplay: "+91 98157 47736",
   phoneE164: "+919815747736",

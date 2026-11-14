@@ -70,24 +70,26 @@ Open `index.html` directly in a browser, or run a small local server from this f
 npx http-server -p 8080
 ```
 
-## 6. Hosting and domain (www.primamachinery.com)
+## 6. Hosting
 
-**Set up for: GitHub Pages** (repository `adi26nova12/prima-machines`). The repo already includes:
-- `CNAME`, which tells GitHub Pages to serve the site on `www.primamachinery.com`
+**Live address: https://adi26nova12.github.io/prima-machines/** (GitHub Pages, repository `adi26nova12/prima-machines`).
+
+The repo includes:
 - `.nojekyll`, which serves files as they are, with no Jekyll processing
 - `404.html`, which GitHub Pages uses automatically for missing pages
 
 **Turn on GitHub Pages (one time)**
 1. On GitHub, open the repository and go to **Settings → Pages**.
 2. Under **Build and deployment**, choose **Source: Deploy from a branch**, then **Branch: `main`** and folder **`/ (root)`**, and click **Save**.
-3. Within a minute or two the site is live at `https://adi26nova12.github.io/prima-machines/`. Once the domain is connected, that address redirects to the custom domain.
+3. Within a minute or two the site is live at the address above.
 
-**Connect the domain** (at your domain registrar's DNS settings for primamachinery.com)
-- `CNAME` record: `www` → `adi26nova12.github.io`
-- `A` records for `@` (the root domain), so `primamachinery.com` redirects to `www`:
-  `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-
-Then go back to **Settings → Pages**, wait for the DNS check to pass, and tick **Enforce HTTPS**. DNS changes can take a few minutes to 24 hours.
+### Later: connecting www.primamachinery.com (once the domain is bought)
+1. Replace `https://adi26nova12.github.io/prima-machines` with `https://www.primamachinery.com` in every file (`config.js`, the HTML files, `sitemap.xml`, `robots.txt`).
+2. Add a file named `CNAME` containing `www.primamachinery.com`.
+3. At the domain registrar, add these DNS records:
+   - `CNAME`: `www` → `adi26nova12.github.io`
+   - `A` records for `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+4. Push, then in **Settings → Pages** wait for the DNS check to pass and tick **Enforce HTTPS**.
 
 **Updating the site later**
 ```bash
